@@ -1,0 +1,8 @@
+{
+  "name": "elm-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.js",
+  "author": "Evan Rosson <git@erosson.org>",
+  "license": "MIT"
+}

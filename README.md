@@ -6,5 +6,5 @@ Haven't demonstrated HTML output here, but string output is required - you'll wa
 
 related work:
 
-* elm-pages v3 (built on lamdera) has first class support for this: https://elm-pages-v3.netlify.app/. lamdera is capable of it: https://lamdera.com/. requires lamdera's nonstandard compiler, vendor lock-in, restricted server (no server-side ports). I want a server with custom typescript
+* elm-pages v3 (built on lamdera) has first class support for this: https://elm-pages-v3.netlify.app/. lamdera is capable of it: https://lamdera.com/. requires lamdera's nonstandard compiler, vendor lock-in, no ports/no custom typescript
 * spades says it renders on the server before switching to client rendering. https://github.com/rogeriochaves/spades haven't yet tried it, but that sounds very fancy and I'd like plain old SSR for now.

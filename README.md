@@ -4,6 +4,8 @@ A demonstration of Elm as the brain of a node http server.
 
 Haven't demonstrated HTML output here, but string output is required - you'll want something like https://package.elm-lang.org/packages/zwilias/elm-html-string/latest/
 
+Unrelated to Elm, I also tried out service worker capabilities here. Visit `/fake`, and if a service worker's been loaded it'll respond as if it's `/real`.
+
 related work:
 
 * elm-pages v3 (built on lamdera) has first class support for this: https://elm-pages-v3.netlify.app/. lamdera is capable of it: https://lamdera.com/. requires lamdera's nonstandard compiler, vendor lock-in, no ports/no custom typescript

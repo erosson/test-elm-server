@@ -9,7 +9,9 @@ elm.ports.onResponse.subscribe(elmRes => {
 })
 
 const srv = http.createServer((req, res) => {
-    const input = { req, res }
+    // https://nodejs.org/api/http.html#messageurl
+    const url = new URL(req.url, `http://${req.headers.host}`)
+    const input = { req, res, url }
     elm.ports.onRequest.send(input)
 })
 

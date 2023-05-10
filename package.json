@@ -4,5 +4,8 @@
   "type": "module",
   "main": "src/main.js",
   "author": "Evan Rosson <git@erosson.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "elm make src/Main.elm --output dist/Main.elm.js && mv dist/Main.elm.js dist/Main.elm.cjs && node src/main.js"
+  }
 }
